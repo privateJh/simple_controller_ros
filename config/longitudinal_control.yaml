@@ -1,0 +1,8 @@
+hz: 100
+static_steering: 200 # deg
+target_velocity: 2   # m/s
+pid_control:
+  p: 0.1
+  i: 0.0
+  d: 0.0
+  dt: 0.1

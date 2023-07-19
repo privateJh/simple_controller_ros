@@ -1,0 +1,5 @@
+<?xml version="1.0"?> 
+<launch>
+	<rosparam file="config/longitudinal_control.yaml" command="load"/>
+	<node pkg='longitudinal_control' type='longitudinal_control.py' name='longitudinal_control' output='screen' respawn='true'/>
+</launch>
